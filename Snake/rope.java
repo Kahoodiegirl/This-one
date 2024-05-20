@@ -1,4 +1,5 @@
-import javax.swing.*;
+public class SnakeGame 
+    public static void main(String[] args)import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -6,11 +7,6 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.Random;
 
-public class SnakeGame {
-    public static void main(String[] args) {
-        new GameFrame();
-    }
-}
 public class Snake {
     private static final int SCREEN_WIDTH = 600;
     private static final int SCREEN_HEIGHT = 600;
